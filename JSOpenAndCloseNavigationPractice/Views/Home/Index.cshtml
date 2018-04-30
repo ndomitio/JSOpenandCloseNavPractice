@@ -1,12 +1,24 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+<link href="~/Scripts/StyleSheet.css" rel="stylesheet" />
 <html>
 <head>
     <title></title>
 </head>
 <body>
+    <div id="toggleMenu" onclick="toggleMenu()"></div>
+    <nav id="menu">
+        <img src="~/Content/logo.png" />
+      
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Personal Projects</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
 
+        </ul>
+    </nav>
 </body>
 </html>
